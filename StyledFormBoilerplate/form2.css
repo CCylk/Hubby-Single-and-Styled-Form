@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #274471;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  background-color: rgb(243, 243, 243);
+  width: 400px;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+form {
+  padding: 25px 25px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 16px;
+  margin: 8px 0px 8px 0px;
+  border-radius: 5px;
+  border: 0px solid;
+}
+
+#submit {
+  background-color: #1ac0f3;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0px 8px 0px;
+  border-radius: 5px;
+  border: 0px solid;
+  resize: none;
+}
+
+#submit:hover {
+  color: #274471;
+}
